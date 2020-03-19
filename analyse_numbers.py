@@ -7,9 +7,9 @@ def is_number_natural(number):
 
 def main():
     my_numbers = [12, 13, 14, 15, 16, 17, 134134, 311]
-    for i in my_numbers:
-        number = my_numbers(i)
-        print(number, "is number natural", is_number_natural(my_numbers(i - 1)))
+    for index in range(len(my_numbers)):
+        number = my_numbers[index - 1]
+        print(number, "is number natural", is_number_natural(my_numbers[index - 1]))
 
 
 if __name__ == '__main__':
