@@ -12,5 +12,8 @@ def main():
         print(number, "is number natural", is_number_natural(my_numbers[index - 1]))
 
 
+'''fuck this shit'''
+
+
 if __name__ == '__main__':
     main()
